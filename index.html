@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Section</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+        body {
+            color: white;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        footer{
+            background-color: #1b479e;
+        }
+
+        footer a {
+    color: white;
+}
+
+
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-image: url(pg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .hero .btn {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border-radius: 5px;
+        }
+        .typed-text {
+            color: #fb8127;
+        }
+        .what-we-do {
+            background-color: rgb(236, 236, 238);
+        }
+
+    .star{
+        color: #fb8127;
+    font-size: 30px;
+
+    }
+
+    .star:hover{
+        color: white;
+    }
+        .why-choose-us {
+            background-color: #fb8127;
+            color: #000;
+            padding: 50px 20px;
+            text-align: center;
+
+        }
+        .icon-box {
+            padding: 20px;
+            border-radius: 8px;
+            background: #f8f9fa;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .icon-box:hover {
+            transform: translateY(-5px);
+        }
+        .icon-box i {
+            font-size: 3rem;
+            color: #1b479e;
+        }
+
+        .navbar {
+            background: rgba(27, 71, 158, 0.9);
+        }
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Blue<span class="star">Star</span> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero-section">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Learn More</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#why-us">Why Choose Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item navbtn">
+                        <a class="nav-link btn btn-warning text-white" href="https://wa.me/2347066155981?text=I%20am%20interested%20in%20your%20branding">Get Started</a>
+                    </li>
+                     </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="hero" id="hero-section">
+        <h1>We <span class="typed-text"></span></h1>
+        <p class="mt-3">At our company, we provide innovative solutions to help businesses grow, transform, and succeed in the modern world.</p>
+        <div>
+            <a href="https://wa.me/2347066155981?text=I%20am%20interested%20in%20your%20branding" class="btn btn-warning">Get Started</a>
+            <a id="services" href="#why-us" class="btn btn-light">Learn More</a>
+        </div>
+    </section>
+
+    <section id="services" class="container my-5 what-we-do" style="padding-top: 20px;">
+        <h2 class="text-center mb-4 text-dark">What We Do</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm p-3">
+                    <i class="fas fa-paint-brush fa-3x text-primary mb-3"></i>
+                    <h4>Logo Designs</h4>
+                    <p>We craft visually stunning and memorable logos that represent your brand identity effectively.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm p-3">
+                    <i class="fab fa-facebook fa-3x text-primary mb-3"></i>
+                    <h4>Social Media Management & Marketing</h4>
+                    <p>We help businesses grow their online presence with strategic social media management and marketing.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm p-3">
+                    <i class="fas fa-pen-fancy fa-3x text-primary mb-3"></i>
+                    <h4>Copywriting</h4>
+                    <p>We create compelling content that engages your audience and drives conversions for your business.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm p-3">
+                    <i class="fas fa-search fa-3x text-primary mb-3"></i>
+                    <h4>SEO</h4>
+                    <p>Boost your search engine rankings with our expert SEO strategies tailored to your business needs.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm p-3">
+                    <i class="fas fa-laptop-code fa-3x text-primary mb-3"></i>
+                    <h4>Web Designs</h4>
+                    <p>We design modern, responsive, and user-friendly websites to establish your online presence effectively.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm p-3">
+                    <i class="fas fa-users fa-3x text-primary mb-3"></i>
+                    <h4>HR Services</h4>
+                    <p>From recruitment to employee management, we provide HR solutions that align with your business goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-us" class="container-fluid why-choose-us">
+        <h2 class="mb-4">Why Choose Us</h2>
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <div class="icon-box p-4">
+                    <i class="fas fa-lightbulb"></i>
+                    <h4 class="mt-3">Innovative Solutions</h4>
+                    <p>We bring fresh ideas and cutting-edge strategies to drive your business forward.</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="icon-box p-4">
+                    <i class="fas fa-user-friends"></i>
+                    <h4 class="mt-3">Expert Team</h4>
+                    <p>Our skilled professionals are dedicated to delivering top-notch services and solutions.</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="icon-box p-4">
+                    <i class="fas fa-chart-line"></i>
+                    <h4 class="mt-3">Proven Results</h4>
+                    <p>We have a track record of success, helping businesses achieve their goals efficiently.</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="icon-box p-4">
+                    <i class="fas fa-headset"></i>
+                    <h4 class="mt-3">24/7 Support</h4>
+                    <p>We offer round-the-clock support to ensure your business never faces downtime.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="container-fluid text-white" style="background-color: #1b479e; min-height: 200px; text-align: center;">
+        <h2 class="text-center mb-4" style="padding-top: 30px;">What Our Clients Say</h2>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                    <p class="lead">"The team exceeded my expectations. Their attention to detail and creativity is unmatched!"</p>
+                    <h5>- John Doe</h5>
+                </div>
+                <div class="carousel-item">
+                    <p class="lead">"Outstanding service! They helped elevate our brand with top-notch designs and marketing."</p>
+                    <h5>- Jane Smith</h5>
+                </div>
+                <div class="carousel-item">
+                    <p class="lead">"A reliable team that delivers exceptional results. I highly recommend their services."</p>
+                    <h5>- Michael Johnson</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container text-dark my-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>TechAlpha Hub</h4>
+                <p><i class="fas fa-map-marker-alt"></i> 139 Etinan-Uyo Road, Etinan, Akwa Ibom State, Nigeria</p>
+                <p><i class="fas fa-map-marker-alt"></i> 5 Bisi Ogabi Street, Ikeja, Lagos, Nigeria</p>
+                <p><i class="fas fa-phone"></i> +2347066155981, +2348130790321</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:admin@techalphahub.com">admin@techalphahub.com</a></p>
+            </div>
+            <div class="col-md-6">
+                <h4>Our Location</h4>
+                <div class="ratio ratio-16x9">
+                    <iframe 
+                        src="https://www.google.com/maps?q=TechAlpha+Hub,+139+Etinan-Uyo+Road,+Etinan,+Nigeria&output=embed" 
+                        style="border:0;" allowfullscreen loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer style="text-decoration: none;" class="footer text-white py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Navigation Links -->
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#services" class="footer-link">What We Do</a></li>
+                        <li><a href="#why-us" class="footer-link">Why Choose Us</a></li>
+                        <li><a href="#testimonials" class="footer-link">Testimonials</a></li>
+                        <li><a href="#contact" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Social Media Links -->
+                <div class="col-md-4 text-center">
+                    <h5>Follow Us</h5>
+                    <a href="https://web.facebook.com/treasure155" class="text-white mx-2"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="https://x.com/Techalphahub" class="text-white mx-2"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="https://www.instagram.com/techalphafoundation/" class="text-white mx-2"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="http://t.me/TreasureIdem" class="text-white mx-2"><i class="fab fa-telegram fa-2x"></i></a>
+                </div>
+    
+                <!-- Copyright -->
+                <div class="col-md-4 text-end">
+                    <h5>Contact Us</h5>
+                    <p>Email: admin@techalphahub.com</p>
+                    <p>Phone: +2347066155981</p>
+                    <p>&copy; 2025 TechAlpha Hub. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Initialize Bootstrap Carousel (if the element exists)
+            const carouselElement = document.getElementById("testimonialCarousel");
+            if (carouselElement) {
+                new bootstrap.Carousel(carouselElement, { interval: 3000, ride: "carousel" });
+            }
+    
+            // Initialize Typed.js (if the element exists)
+            const typedElement = document.querySelector(".typed-text");
+            if (typedElement) {
+                new Typed(".typed-text", {
+                    strings: ["build", "solve", "brand", "rebrand", "fix your business"],
+                    typeSpeed: 100,
+                    backSpeed: 50,
+                    loop: true
+                });
+            }
+    
+            // Smooth Scroll for Navbar Links
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute("href").substring(1);
+                    const targetElement = document.getElementById(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
+                    }
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>
